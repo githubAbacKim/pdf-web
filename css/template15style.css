@@ -19,6 +19,11 @@
             border-top: solid 2pt black;
             border-bottom: solid 4pt black;
         }
+        .title{
+            width: 40%;
+            margin: auto;
+            text-align: center;
+        }
         .h1{
             border-bottom: solid 2pt black;
         }
@@ -69,7 +74,7 @@
             print-color-adjust: exact;
         }
         tbody td{
-            padding: 4px 5px;
+            padding: 4px 15px;
             font-size: 8pt;
         }
         .trcontent .c1{
@@ -176,7 +181,7 @@
         print-color-adjust: exact;
     }
     tbody td{
-        padding: 4px 5px;
+        padding: 4px 15px;
         font-size: 8pt;
     }
     .trcontent .c1{

@@ -17,11 +17,11 @@
             width: 210mm;
             height: 297mm;
             margin-top: 0 !important;
-            page-break-before:always !important;   
+            page-break-before:always !important; 
         }
         .title{
             width:100%;
-            margin: -10px auto;
+            margin: 0 auto -35px;
             overflow: auto;
             font-size: 15pt;
             font-weight: bolder;
@@ -54,6 +54,7 @@
         .tabletop1label{ 
             display: block;           
             width: 100%;
+            top: -15px;
         }
         .tabletop1label div{
             display: inline-block;
@@ -88,12 +89,14 @@
         .fillbox2 ul{
             list-style: none;
             padding: 0;
-            margin: 0 !important;
+            margin: 0 !important; 
         }
         .fillbox2 ul li{
             float: left;
-            width: 15px;
-            margin: 0 1px;
+            width: 17.5px;
+            height: 25px;
+            margin: 0 0;
+            padding: 0;
         }
         .pag1{
             margin-left:0 !important;
@@ -123,7 +126,7 @@
             border-right: transparent !important;
         }
         tbody td{
-            font-size: 8pt;
+            font-size: 7pt;
             border: solid 1px;
         }
     
@@ -233,19 +236,21 @@
         }
         .set8 .c4 ul,.set8 .c5 ul{
             list-style: none;
-            padding: 0;
-            margin: 0;
+            padding: 0 !important;
+            margin: 0 !important;
             overflow: auto;
         }
         .set8 .c4 ul li, .set8 .c5 ul li{
             float: left;
             margin: 0;
             width: 14.5%;
-            padding: 0 !important;
+            height: 20px;
+            padding: 8px 0 0 !important;
         }
         .set8 .rowspanc6 p{
             font-size: 6pt;
             margin: 0 auto;
+            text-align: justify;
         }
         .set8 .c4 ul li:first-child, .set8 .c5 ul li:first-child{
             margin-left: 2px;
@@ -318,6 +323,8 @@
             float: left;
             margin: 0;
             width: 15.2%;
+            height: 20px;
+            padding: 8px 0 0 !important;
         }
         .set12 .c5 ul li:first-child{
             border-left: transparent !important;
@@ -365,11 +372,11 @@
             margin: 0;
         }
         .docnote{
+            margin-top: 0 !important;
             font-size: 8pt;
         }
         .tabletop1label2 p{
-            font-size: 8pt;
-            margin: 2px auto;
+            font-size: 9pt;
         }
     }
 
@@ -383,11 +390,11 @@
         width: 210mm;
         height: 297mm;
         margin-top: 0 !important;
-        page-break-before:always !important;   
+        page-break-before:always !important; 
     }
     .title{
         width:100%;
-        margin: -10px auto;
+        margin: 0 auto -35px;
         overflow: auto;
         font-size: 15pt;
         font-weight: bolder;
@@ -420,6 +427,7 @@
     .tabletop1label{ 
         display: block;           
         width: 100%;
+        top: -15px;
     }
     .tabletop1label div{
         display: inline-block;
@@ -454,12 +462,14 @@
     .fillbox2 ul{
         list-style: none;
         padding: 0;
-        margin: 0 !important;
+        margin: 0 !important; 
     }
     .fillbox2 ul li{
         float: left;
-        width: 15px;
-        margin: 0 1px;
+        width: 17.5px;
+        height: 25px;
+        margin: 0 0;
+        padding: 0;
     }
     .pag1{
         margin-left:0 !important;
@@ -489,7 +499,7 @@
         border-right: transparent !important;
     }
     tbody td{
-        font-size: 8pt;
+        font-size: 7pt;
         border: solid 1px;
     }
 
@@ -599,15 +609,16 @@
     }
     .set8 .c4 ul,.set8 .c5 ul{
         list-style: none;
-        padding: 0;
-        margin: 0;
+        padding: 0 !important;
+        margin: 0 !important;
         overflow: auto;
     }
     .set8 .c4 ul li, .set8 .c5 ul li{
         float: left;
         margin: 0;
         width: 14.5%;
-        padding: 0 !important;
+        height: 20px;
+        padding: 8px 0 0 !important;
     }
     .set8 .rowspanc6 p{
         font-size: 6pt;
@@ -685,6 +696,8 @@
         float: left;
         margin: 0;
         width: 15.2%;
+        height: 20px;
+        padding: 8px 0 0 !important;
     }
     .set12 .c5 ul li:first-child{
         border-left: transparent !important;

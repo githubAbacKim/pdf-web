@@ -11,24 +11,32 @@
             height: 297mm;
             margin-top: 0 !important;
             page-break-before:always !important;   
-            font-size: 9pt;
+        }
+        .title-divider{
+            width: 80%;
+            padding: 1px 0;
+            margin: auto;
+            border-top: solid 2pt black;
+            border-bottom: solid 4pt black;
         }
         .title{
-            width: 39%;
+            width: 40%;
             margin: auto;
-        }
-        .h1{
-            border-bottom: solid 2pt black;
+            text-align: center;
         }
         .h1 h1{
             margin-bottom: 5px;
+            padding-left: 20px;
+        }
+        .h2{        
+            margin-top: 5px;
         }
         .h2{
-            border-top: solid 4pt black;
+            font-size: 11pt;
             margin-top: 5px;
         }
-        .h2 h4{
-            margin-top: 5px;
+        .h3{
+            margin-top: -15px;
         }
         .tabletop1label{ 
             display: block;           
@@ -58,15 +66,15 @@
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
         }
+        
         thead th{
             border: solid 1px rgb(83, 83, 83) !important;
             text-align: center !important;
             -webkit-print-color-adjust: exact;
-            print-color-adjust: exact;
+            print-color-adjust: exact;        
         }
         tbody td{
-            text-align: center;
-            padding: 3px 5px;
+            padding: 3px 15px;
             font-size: 7pt;
         }
         .trcontent .c1,.trcontent .c2,.trcontent .c3,
@@ -165,15 +173,15 @@
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
+    
     thead th{
         border: solid 1px rgb(83, 83, 83) !important;
         text-align: center !important;
         -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+        print-color-adjust: exact;        
     }
     tbody td{
-        text-align: center;
-        padding: 3px 5px;
+        padding: 3px 15px;
         font-size: 7pt;
     }
     .trcontent .c1,.trcontent .c2,.trcontent .c3,

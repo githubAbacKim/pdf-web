@@ -14,14 +14,14 @@
         }
         .title{
             width: 100%;
-            margin: auto;
+            margin: 0 auto -15px;
             text-align: center;
         }
         .h1 h1{
             margin-bottom: -5px;
         }
         .h2{
-            margin-top: -5px;
+            margin-top: -20px;
             letter-spacing: 4px;
         }
         .tabletop1label{            
@@ -47,9 +47,11 @@
         thead th{
             text-align: center !important;
         }
-        tbody td{
-            padding: 5px;
+        tbody td{        
             font-size: 10pt;
+        }
+        td p{
+            margin: 0;
         }
         .titlelable .label{
             text-align: left;
@@ -93,16 +95,19 @@
         .set1 tbody{
             border-collapse: collapse;
         }
+        .set1 td{
+            padding: 5px;
+        }
         .set1 .trcontent .c1{
-            width: 15%;
+            width: 17.5%;
             word-wrap: break-word;        
         }
         .set1 .trcontent .c2{
-            width: 35%;
+            width: 30%;
             word-wrap: break-word;
         }
         .set1 .trcontent .c3{
-            width: 15%;
+            width: 17.5%;
             word-wrap: break-word;
         }
         .set1 .trcontent .c4{
@@ -117,7 +122,9 @@
         .set2 .trcontent-head div{
             height: auto;
         }
-    
+        .set2 td{
+            padding: 0 5px;
+        }
         .set2 .c1,.set2 .c2{
             width: 10%;
             word-break: break-all;
@@ -179,7 +186,9 @@
             margin: -5px auto 0;
         }
         td ul{
-            width: 220px;
+            width: 100%;
+            height: 25px;
+            height: fit-content;
             overflow: auto;        
             padding: 0;
             margin: 0 auto;
@@ -224,14 +233,14 @@
     }
     .title{
         width: 100%;
-        margin: auto;
+        margin: 0 auto -15px;
         text-align: center;
     }
     .h1 h1{
         margin-bottom: -5px;
     }
     .h2{
-        margin-top: -5px;
+        margin-top: -20px;
         letter-spacing: 4px;
     }
     .tabletop1label{            
@@ -257,9 +266,11 @@
     thead th{
         text-align: center !important;
     }
-    tbody td{
-        padding: 5px;
+    tbody td{        
         font-size: 10pt;
+    }
+    td p{
+        margin: 0;
     }
     .titlelable .label{
         text-align: left;
@@ -303,6 +314,9 @@
     .set1 tbody{
         border-collapse: collapse;
     }
+    .set1 td{
+        padding: 5px;
+    }
     .set1 .trcontent .c1{
         width: 17.5%;
         word-wrap: break-word;        
@@ -327,7 +341,9 @@
     .set2 .trcontent-head div{
         height: auto;
     }
-
+    .set2 td{
+        padding: 0 5px;
+    }
     .set2 .c1,.set2 .c2{
         width: 10%;
         word-break: break-all;
@@ -389,7 +405,9 @@
         margin: -5px auto 0;
     }
     td ul{
-        width: 220px;
+        width: 100%;
+        height: 25px;
+        height: fit-content;
         overflow: auto;        
         padding: 0;
         margin: 0 auto;

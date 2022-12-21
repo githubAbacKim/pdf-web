@@ -11,7 +11,6 @@
             height: 297mm;
             margin-top: 0 !important;
             page-break-before:always !important;   
-            font-size: 9pt;
         }
         .title{
             width: 45%;
@@ -20,7 +19,7 @@
         }
         .h1{
             border-bottom: solid 2pt black;
-            font-size: 14pt;
+            font-size: 13pt;
         }
         .h1 h1{
             margin-bottom: 5px;
@@ -72,6 +71,7 @@
         tbody td{
             text-align: center;
             padding: 5px 5px;
+            font-size: 8pt;
         }
         tbody td:first-child{
             letter-spacing: 4px;
@@ -89,6 +89,7 @@
         .label-list{
             display: block;
             width: 100%;
+            margin-top: 5px;
             margin-left: 10px;
             font-size: 10pt;
         }
@@ -123,7 +124,6 @@
         height: 297mm;
         margin-top: 0 !important;
         page-break-before:always !important;   
-        font-size: 9pt;
     }
     .title{
         width: 45%;
@@ -184,6 +184,7 @@
     tbody td{
         text-align: center;
         padding: 5px 5px;
+        font-size: 8pt;
     }
     tbody td:first-child{
         letter-spacing: 4px;

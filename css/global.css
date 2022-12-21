@@ -11,6 +11,12 @@
     }
     html,body{
         font-family: "Noto Sans KR",Arial, Helvetica, sans-serif;
+        /* font-family: '넥슨Lv1고딕 OTF', sans-serif; */
+    }
+    .clearfix{
+        display: block;
+        clear: both;
+        content: "";
     }
     .text-right{
         text-align: right !important;
@@ -21,9 +27,11 @@
     .text-center{
         text-align: center !important;
     }
-    .text-justify{
-        text-align: justify !important;
-        text-justify: inter-word !important;;
+    .text-justify{    
+        text-align-last: justify;
+    }
+    .text-justify-right{    
+        text-align-last: right;
     }
     .underline{
         border-bottom: solid 1px rgb(83, 83, 83) !important;
@@ -158,8 +166,26 @@
     .wide-25px {
         letter-spacing: 25px;
     }
+    .wide-30px {
+        letter-spacing: 30px;
+    }
+    .wide-35px {
+        letter-spacing: 35px;
+    }
+    .wide-40px {
+        letter-spacing: 40px;
+    }
     .wide-45px {
         letter-spacing: 45px;
+    }
+    .wide-50px {
+        letter-spacing: 50px;
+    }
+    .wide-55px {
+        letter-spacing: 55px;
+    }
+    .wide-60px {
+        letter-spacing: 60px;
     }
     .wide-65px {
         letter-spacing: 65px;
@@ -189,6 +215,10 @@
         font-size: 12pt;
     }
     
+    .underline{
+        text-decoration: underline;
+    }
+    
     .indent-5px{
         text-indent: 5px;
     }
@@ -199,16 +229,28 @@
         text-indent: 15px;
     }
     .indent-25px{
-        text-indent: 15px;
+        text-indent: 25px;
+    }
+    .indent-35px{
+        text-indent: 35px;
     }
     
     .docnote{
         margin-bottom: 5px;
     }
+    .padding65{
+        padding: 5px 65px;
+    }
+    .padding25{
+        padding: 5px 25px;
+    }
+    .padding15{
+        padding: 5px 15px;
+    }
 }
 html,body{
-    /* font-family: "Noto Sans KR",Arial, Helvetica, sans-serif; */
-    font-family: '넥슨Lv1고딕 OTF', sans-serif;
+    font-family: "Noto Sans KR",Arial, Helvetica, sans-serif;
+    /* font-family: '넥슨Lv1고딕 OTF', sans-serif; */
 }
 .clearfix{
     display: block;
@@ -226,6 +268,9 @@ html,body{
 }
 .text-justify{    
     text-align-last: justify;
+}
+.text-justify-right{    
+    text-align-last: right;
 }
 .underline{
     border-bottom: solid 1px rgb(83, 83, 83) !important;
@@ -431,4 +476,13 @@ html,body{
 
 .docnote{
     margin-bottom: 5px;
+}
+.padding65{
+    padding: 5px 65px;
+}
+.padding25{
+    padding: 5px 25px;
+}
+.padding15{
+    padding: 5px 15px;
 }

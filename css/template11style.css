@@ -134,6 +134,9 @@
         .set2 div{
             margin: auto;
         }
+        .set2 td:first-child{
+            padding-right: 30px;
+        }
         .set2 .trcontent-head div{
             height: auto;
         }
@@ -309,6 +312,9 @@
     /* set 2 row */
     .set2 div{
         margin: auto;
+    }
+    .set2 td:first-child{
+        padding-right: 30px;
     }
     .set2 .trcontent-head div{
         height: auto;
